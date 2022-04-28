@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game{
+    font-family: cursive, sans-serif;
+    text-align: center;
+    width: 770px;
+}
+p{
+    background-color: gold;
+
+}
+
+#instructions{
+    text-align: center;
+
+}
+
+#game-area {
+    margin: auto;
+    position: relative;
+    width: 750px;
+    height: 400px;
+    border: 2px solid #000000;
+    background-color: gold;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+#bird {
+    background-image:url("images/flappy-bird-girl-please-flappy-bird-and-bird-animal-penguin-transparent-png-2080927.png");
+    position: absolute;
+    height: 27px;
+    width: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+
+.pole {
+    position: absolute;
+    height: 100px;
+    width: 30px;
+    background-color: #02073d;
+    right: 0;
+
+}
+
+#pole-1 {
+    top: 0;
+    height: 130px;
+}
+
+#pole-2 {
+    bottom: 0;
+        height: 130px;
+
+}
+
+#game-info {
+    margin: 5px;
+    font-size: 18px;
+}
+
+#game-info p{
+    display: inline;
+    padding: 20px;
+    background-color: gold;
+}
+
+#restart-btn {
+    padding: 5px 10px;
+    background-color: #867846;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 100px;
+    font-family: sans-serif;
+    background-color: orange;
+}
